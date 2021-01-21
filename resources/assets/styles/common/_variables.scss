@@ -5,6 +5,19 @@ $theme-colors: (
   primary: #ff0000,
 );
 
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1600px,
+);
+
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none;
 $navbar-light-toggler-icon-bg: none;
+
+/**Custom variables**/
+
+$fontPrimary: "IBM Plex Sans", sans-serif;
+$darkPrimary: #100f2b;
+$goldPrimary: #f7aa00;

@@ -5,3 +5,15 @@
 .banner .nav a {
   @extend .nav-link;
 }
+
+.header {
+  &-wrapp {
+    position: relative;
+  }
+  &__navigation-button {
+    position: absolute;
+    right: 0;
+    color: #000;
+    font-weight: 400;
+  }
+}
