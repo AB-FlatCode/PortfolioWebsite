@@ -9,7 +9,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1600px,
+  xl: 1700px,
 );
 
 /** Bootstrap navbar fix (https://git.io/fADqW) */
@@ -20,6 +20,6 @@ $navbar-light-toggler-icon-bg: none;
 
 $fontPrimary: "Manrope", sans-serif;
 
-$darkPrimary: #100f2b;
+$darkPrimary: #0d0c23;
 $goldPrimary: #f7aa00;
 $textGray: #909090;

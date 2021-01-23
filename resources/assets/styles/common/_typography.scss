@@ -2,9 +2,25 @@
   font-size: 3.2rem;
   font-family: $fontPrimary;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 4.5rem;
+  max-width: 65rem;
   & span {
-    display: block;
+    display: inline-block;
+  }
+  &-line {
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 100%;
+      height: 2px;
+      background: $goldPrimary;
+      left: 0;
+      top: 75px;
+      z-index: -1;
+    }
   }
 }

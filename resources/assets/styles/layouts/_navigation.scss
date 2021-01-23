@@ -1,0 +1,81 @@
+.navigation {
+  &__menu-toggle {
+    cursor: pointer;
+    position: relative;
+  }
+
+  &__hamburger,
+  &__cross {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__hamburger span {
+    display: block;
+    width: 37px;
+    height: 2px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    position: relative;
+
+    &:last-child {
+      margin: 0;
+    }
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #c3c3c3;
+      transform: translateX(-200%);
+      transition: transform ease 300ms;
+    }
+    &::after {
+      transform: translateX(0);
+    }
+    &:nth-child(2)::before,
+    &:nth-child(2)::after {
+      transition-delay: 75ms;
+    }
+
+    &:last-child::before,
+    &:last-child::after {
+      transition-delay: 150ms;
+    }
+  }
+}
+
+.navigation__menu-toggle:hover .navigation__hamburger span:before {
+  transform: translateX(0);
+}
+.navigation__menu-toggle:hover .navigation__hamburger span:after {
+  transform: translateX(200%);
+}
+.navigation__menu-toggle.active .navigation__hamburger span:before {
+  transform: translateX(100%);
+}
+.navigation__menu-toggle.active .navigation__hamburger span:after {
+  transform: translateX(200%);
+}
+
+.navigation__cross span {
+  display: block;
+  width: 37px;
+  height: 2px;
+  background-color: #c3c3c3;
+  transform: translateY(50%) rotate(45deg) scaleX(0);
+  transition: transform ease 200ms;
+}
+.navigation__cross span:last-child {
+  transform: translateY(-50%) rotate(-45deg) scaleX(0);
+}
+.navigation__menu-toggle.active .navigation__cross span {
+  transition-delay: 450ms;
+  transform: translateY(50%) rotate(45deg) scaleX(1);
+}
+.navigation__menu-toggle.active .navigation__cross span:last-child {
+  transform: translateY(-50%) rotate(-45deg) scaleX(1);
+}

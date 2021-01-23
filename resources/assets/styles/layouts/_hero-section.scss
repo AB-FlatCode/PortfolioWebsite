@@ -2,12 +2,25 @@
   &__content {
     position: relative;
     width: 100%;
-    height: 75vh;
+    height: 80vh;
+    margin-top: 6rem;
   }
   &__content-text {
     max-width: 32rem;
     color: $textGray;
     font-weight: 300;
     margin-top: 1.2rem;
+  }
+
+  &__side-text {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 9;
+    transform-origin: center center;
+    right: -68px;
+    font-weight: 400;
+    color: #c3c3c3;
+    font-size: 14px;
   }
 }

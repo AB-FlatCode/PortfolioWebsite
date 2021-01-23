@@ -1,10 +1,18 @@
 <header class="banner">
   <div class="container-xl">
-  <div class="header-wrapp d-flex justify-content-between">
-    <a class="brand" href="{{ home_url('/') }}">ab - dev.</a>
+  <div class="header-wrapp d-flex justify-content-between align-items-center">
+    <a class="header-logo" href="{{ home_url('/') }}">ab <span>-</span> dev.</a>
     <div class="navigation">
-      <div class="header__navigation-button">
-        icon
+      <div class="navigation__menu-toggle">
+        <div class="navigation__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="navigation__cross">
+          <span></span>
+          <span></span>
+        </div>
       </div>
   </div>
   <nav class="nav-primary">

@@ -1,9 +1,12 @@
 export default {
   init() {
-    // JavaScript to be fired on all pages
+    const navMenu = document.querySelector(".navigation__menu-toggle");
+
+    navMenu.addEventListener("click", navHandler);
+
+    function navHandler() {
+      navMenu.classList.toggle("active");
+    }
   },
-  finalize() {
-    // JavaScript to be fired on all pages, after page specific JS is fired
-    console.log("javasctipt initialized!");
-  },
+  finalize() {},
 };
