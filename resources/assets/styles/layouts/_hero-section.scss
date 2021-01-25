@@ -2,8 +2,7 @@
   &__content {
     position: relative;
     width: 100%;
-    height: 80vh;
-    margin-top: 6rem;
+    margin-top: 9rem;
   }
   &__content-text {
     max-width: 32rem;
@@ -18,9 +17,9 @@
     transform: translateY(-50%) rotate(90deg);
     z-index: 9;
     transform-origin: center center;
-    right: -68px;
+    right: -76px;
     font-weight: 400;
-    color: #c3c3c3;
+    color: $textGray;
     font-size: 14px;
   }
 }
