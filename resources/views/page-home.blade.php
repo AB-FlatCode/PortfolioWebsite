@@ -16,9 +16,6 @@
           stekli uvid u proces, rezultate i iskustva klijenata.
           </p>
       </div>
-      <div class="hero-section__side-text">
-      info@alenbarac.com
-      </div>
    </div>
   </div>
 </section>
@@ -26,9 +23,11 @@
 <section class="portfolio-wrapp">
  <div class="container-lg">
    <ul class="portfolio-grid">
-     <li class="portfolio-grid__item portfolio-grid__item--tall">
-       <a href="" class="portfolio-grid__item-img img-link">
+     <li class="portfolio-grid__item">
+       <a href="" class="portfolio-grid__item-link">
+         <div class="portfolio-grid__item-img">
           <img src="@asset("images/brandier-ex.jpg")" alt="">
+         </div>
        </a>
        <div class="portfolio-grid__item-desc">
          <h3 class="portfolio-grid__item-title">Grad Kastav</h3>
@@ -36,9 +35,11 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item portfolio-grid__item--wide">
-       <a href="" class="portfolio-grid__item-img img-link">
+      <li class="portfolio-grid__item">
+       <a href="" class="portfolio-grid__item-link">
+         <div class="portfolio-grid__item-img">
           <img src="@asset("images/kastav-ex.jpg")" alt="">
+         </div>
        </a>
        <div class="portfolio-grid__item-desc">
          <h3 class="portfolio-grid__item-title">Brandier</h3>
@@ -46,9 +47,12 @@
        </div>
      </li>
 
-     <li class="portfolio-grid__item portfolio-grid__item--wide">
-       <a href="" class="portfolio-grid__item-img img-link">
-          <img src="@asset("images/kastav-ex.jpg")" alt="">
+     <li class="portfolio-grid__item">
+       <a href="" class="portfolio-grid__item-link">
+         <div class="portfolio-grid__item-img">
+            <img src="@asset("images/kastav-ex.jpg")" alt="">
+         </div>
+         
        </a>
        <div class="portfolio-grid__item-desc">
          <h3 class="portfolio-grid__item-title">Grad Kastav</h3>
@@ -56,9 +60,12 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item portfolio-grid__item--tall">
-       <a href="" class="portfolio-grid__item-img img-link">
+      <li class="portfolio-grid__item">
+       <a href="" class="portfolio-grid__item-link">
+         <div class="portfolio-grid__item-img">
           <img src="@asset("images/brandier-ex.jpg")" alt="">
+         </div>
+          
        </a>
        <div class="portfolio-grid__item-desc">
          <h3 class="portfolio-grid__item-title">Brandier</h3>
@@ -68,6 +75,8 @@
    </ul>
           
   </div>
+
+  
 </section>
  
   

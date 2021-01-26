@@ -1,4 +1,6 @@
 .navigation {
+  padding-right: 25px;
+  position: relative;
   &__menu-toggle {
     cursor: pointer;
     position: relative;
@@ -78,4 +80,12 @@
 }
 .navigation__menu-toggle.active .navigation__cross span:last-child {
   transform: translateY(-50%) rotate(-45deg) scaleX(1);
+}
+
+.navigation__call-cta {
+  color: #c3c3c3;
+  position: absolute;
+  left: -130px;
+  font-size: 14px;
+  bottom: -11px;
 }

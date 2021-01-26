@@ -1,8 +1,8 @@
 .hero-section {
   &__content {
-    position: relative;
+    position: absolute;
     width: 100%;
-    margin-top: 9rem;
+    top: 35%;
   }
   &__content-text {
     max-width: 32rem;
