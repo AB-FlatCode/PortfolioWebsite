@@ -73,10 +73,14 @@
        </div>
      </li>
    </ul>
+
+   <div class="d-flex justify-content-center el-wrapp">
+     <a href="#" class="btn btn--border">Istražite</a>
+   </div>
           
   </div>
 
-  
+
 </section>
  
   

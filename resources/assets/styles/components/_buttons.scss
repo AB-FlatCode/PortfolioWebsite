@@ -10,6 +10,8 @@
     font-family: $fontPrimary;
     font-weight: 300;
     text-decoration: none;
+    outline: none;
+    box-shadow: none;
   }
 
   &--border {
@@ -22,12 +24,13 @@
       width: 100%;
       height: 2px;
       background-color: $goldPrimary;
-      bottom: 0;
+      bottom: 8px;
       left: 0;
       transition: width ease 0.3s;
     }
 
-    &:hover {
+    &:hover.btn--border::before {
+      width: 0;
     }
 
     &:active,
