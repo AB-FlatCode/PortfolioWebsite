@@ -80,10 +80,39 @@
           
   </div>
 
+</section>
+
+<section class="home-about">
+
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="heading-border">
+         Fokus, predanost, podrška
+        </h3>
+      </div>
+      <div class="col-md-6">
+       <div class="page-text">
+         <p>
+            Ako tražite individualni pristup, predanost projektu i stvaranje 
+            dugoročnih poslovnih odnosa nabasali ste na pravo mjesto.
+            Ono što meni dobro ide jest osmišljavanje i razvoj web stranica 
+            raznih namjena, njihovo održavanje i priprema za digitalni
+            marketing.
+         </p>
+         <p>
+            Najugodnije se osjećam u radu s malim i srednjim poduzetnicima,
+            kreativcima i  ostalim nodobudnicima. Još bolje ako su direktni,
+            imaju dobru energiju i veliku želju osmisliti skupa samnom nekakav 
+            moderan i funkcionalan web. Cca 9 od 10 puta i ispadne tako.
+         </p>
+       </div>
+      </div>
+    </div>
+  </div>
 
 </section>
+
+
  
-  
-   
- </div>
 @endsection

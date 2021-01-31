@@ -48,3 +48,27 @@
     }
   }
 }
+
+.heading-border {
+  display: inline-block;
+  padding-left: 120px;
+  position: relative;
+  font-size: 30px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    width: 90px;
+    height: 2px;
+    background: $goldPrimary;
+  }
+}
+
+.page-text {
+  padding-right: 85px;
+  & p {
+    font-size: 22px;
+  }
+}

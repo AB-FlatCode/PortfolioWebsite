@@ -1,5 +1,4 @@
 <header class="banner">
-
   <div class="header-wrapp d-flex justify-content-between align-items-center">
     <a class="header-logo" href="{{ home_url('/') }}">ab <span>-</span> dev.</a>
     <div class="navigation">
@@ -22,8 +21,4 @@
       @endif
     </nav> --}}
   </div>
-    
-
-    
- 
 </header>
