@@ -12,7 +12,7 @@
       web stranica.</h2>
 
       <div class="hero-section__content-text">
-        <p class="lead">Pogledajte neke od mojih nedavnih projekata kako biste
+        <p>Pogledajte neke od mojih nedavnih projekata kako biste
           stekli uvid u proces, rezultate i iskustva klijenata.
           </p>
       </div>
@@ -83,7 +83,6 @@
 </section>
 
 <section class="home-about">
-
   <div class="container-lg">
     <div class="row">
       <div class="col-md-6">
@@ -110,9 +109,66 @@
       </div>
     </div>
   </div>
-
 </section>
 
+<section class="home-services">
+  <div class="text-slider">
+    <div class="skills">    
+      Dizajn web stranica • Web development • Izrada web trgovina • Održavanje web stranica • Podrška • Konzalting 
+    </div>
+  </div>
+<div class="home-faq">
+  <div class="container-lg">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="heading-border heading-border--light">
+         Česta pitanja klijenata
+        </h3>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion-wrapp">
+          <div class="accordion-toggle" data-collapse="">
+            <div class="accordion-block">
+              <div class="accordion-num">01</div>
+              <div class="accordion-title">Kolika je cijena izrade web stranica?</div>
+              <div class="accordion-icon"><span>+</span></div>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
+          </div>
 
+          <div class="accordion-toggle" data-collapse="">
+            <div class="accordion-block">
+              <div class="accordion-num">02</div>
+              <div class="accordion-title">Koliko traje razvoj web stranice?</div>
+              <div class="accordion-icon"><span>+</span></div>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
+          </div>
+
+          <div class="accordion-toggle" data-collapse="">
+            <div class="accordion-block">
+              <div class="accordion-num">03</div>
+              <div class="accordion-title">Trebam li imati gotov dizajn web stranice?</div>
+              <div class="accordion-icon"><span>+</span></div>
+            </div>
+          </div>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</section>
  
 @endsection

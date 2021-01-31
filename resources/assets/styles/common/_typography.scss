@@ -1,7 +1,7 @@
 .heading__hero {
   font-size: 3.2rem;
   font-family: $fontPrimary;
-  color: #fff;
+  color: #dadada;
   font-weight: 300;
   line-height: 4.5rem;
   max-width: 65rem;
@@ -54,6 +54,7 @@
   padding-left: 120px;
   position: relative;
   font-size: 30px;
+  font-weight: 300;
 
   &::before {
     content: "";
@@ -64,6 +65,10 @@
     height: 2px;
     background: $goldPrimary;
   }
+
+  &--light {
+    color: #dadada;
+  }
 }
 
 .page-text {
@@ -71,4 +76,8 @@
   & p {
     font-size: 22px;
   }
+}
+
+.white-bg .heading-border--light {
+  color: $headingDark;
 }
