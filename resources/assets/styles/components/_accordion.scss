@@ -1,16 +1,93 @@
 .accordion {
-  &-block {
-    width: 100%;
-    height: 160px;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    cursor: pointer;
-  }
+  padding-right: 85px;
+}
 
-  &-num {
-    color: $goldPrimary;
-  }
+.accordion .accordion-item {
+  border-bottom: 1px solid #252525;
+}
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid #252525;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 2rem 0;
+  color: #ababab;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+}
+.accordion button:hover {
+  cursor: pointer;
+  color: $goldPrimary;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  border: 1px solid #252525;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 4px;
+  width: 12px;
+  height: 2px;
+  background: #545454;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 12px;
+  background: #545454;
+}
+// .accordion button[aria-expanded="true"] {
+//   color: $goldPrimary;
+// }
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 2em 0;
+  color: #909090;
 }

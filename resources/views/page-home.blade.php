@@ -126,41 +126,53 @@
         </h3>
       </div>
       <div class="col-md-6">
-        <div class="accordion-wrapp">
-          <div class="accordion-toggle" data-collapse="">
-            <div class="accordion-block">
-              <div class="accordion-num">01</div>
-              <div class="accordion-title">Kolika je cijena izrade web stranica?</div>
-              <div class="accordion-icon"><span>+</span></div>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+              <span class="accordion-title">Kolika je cijena izrade web stranica?</span>
+              <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
             </div>
           </div>
-          <div class="accordion-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
+          <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Koliko traje razvoj web stranice?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Trebam li imati gotov dizajn web stranice?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Pružate li podršku nakon izrade web stranice?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Samostalno administriranje web stranice?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+            </div>
           </div>
 
-          <div class="accordion-toggle" data-collapse="">
-            <div class="accordion-block">
-              <div class="accordion-num">02</div>
-              <div class="accordion-title">Koliko traje razvoj web stranice?</div>
-              <div class="accordion-icon"><span>+</span></div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Usluga domene, hostinga web stranice?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
             </div>
-          </div>
-          <div class="accordion-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
           </div>
 
-          <div class="accordion-toggle" data-collapse="">
-            <div class="accordion-block">
-              <div class="accordion-num">03</div>
-              <div class="accordion-title">Trebam li imati gotov dizajn web stranice?</div>
-              <div class="accordion-icon"><span>+</span></div>
+          <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">Marketing, društvene mreže, logotipi?</span><span class="icon" aria-hidden="true"></span></button>
+            <div class="accordion-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
             </div>
-          </div>
-          <div class="accordion-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, earum omnis velit at corrupti?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatibus exercitationem voluptatem corporis officia quae, </p>
           </div>
         </div>
       </div>
