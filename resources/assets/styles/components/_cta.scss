@@ -1,0 +1,17 @@
+.cta {
+  &-light {
+    padding: 8rem 0;
+    background: $lightPrimary;
+
+    &__content {
+      text-align: center;
+    }
+    &__heading {
+      font-size: 2.6rem;
+      font-family: $fontPrimary;
+      color: $darkPrimary;
+      font-weight: 300;
+      line-height: 4.5rem;
+    }
+  }
+}

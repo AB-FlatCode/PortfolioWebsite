@@ -18,6 +18,9 @@
       </div>
    </div>
   </div>
+  {{-- <div class="home__landingArrow">
+    <span></span>
+  </div> --}}
 </section>
 
 <section class="portfolio-wrapp">
@@ -179,8 +182,15 @@
     </div>
   </div>
 </div>
+</section>
 
-
+<section class="cta cta-light">
+  <div class="cta-light__content">
+    <h3 class="cta-light__heading">Imate projekt na umu, trebate savjet?</h3>
+  </div>
+  <div class="d-flex justify-content-center mt-4">
+    <a href="#" class="btn btn--border">Pokrenimo priču</a>
+  </div>
 </section>
  
 @endsection

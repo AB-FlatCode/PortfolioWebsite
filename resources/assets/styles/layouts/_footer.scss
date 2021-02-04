@@ -1,0 +1,46 @@
+.footer {
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  background: $darkPrimary;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    color: $lightPrimary;
+    font-weight: 300;
+
+    & a {
+      color: $lightPrimary;
+    }
+  }
+  &-social {
+    margin-right: auto;
+    font-size: 1.4rem;
+  }
+
+  &-widget__title {
+    color: $lightPrimary;
+    padding-bottom: 1rem;
+  }
+
+  &-widget__content span {
+    display: block;
+  }
+
+  &-bottom {
+    margin-top: 2rem;
+
+    &__content-item {
+      display: inline-block;
+      padding-right: 2rem;
+      color: $lightPrimary;
+      font-weight: 300;
+      font-size: 1rem;
+
+      & a {
+        color: $lightPrimary;
+      }
+    }
+  }
+}
