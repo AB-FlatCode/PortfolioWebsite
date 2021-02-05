@@ -83,6 +83,28 @@
           
   </div>
 
+  <div class="home-circle__text1">
+    <svg class="home-circle-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <title>Home circle1</title>
+<defs>
+	<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle">
+		<animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="30s"
+            type="rotate"
+            from="0 250 250"
+            to="360 250 250"
+            repeatCount="indefinite" 
+			/>
+	</path>
+</defs>
+	<text dy="70" textLength="1220">
+		<textPath xlink:href="#textcircle">Scroll - Još malo - do kraja - stranice -</textPath>
+	</text>
+</svg>
+  </div>
+
 </section>
 
 <section class="home-about">
@@ -182,6 +204,28 @@
     </div>
   </div>
 </div>
+
+ <div class="home-circle__text2">
+    <svg class="home-circle-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <title>Home circle2</title>
+<defs>
+	<path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="textcircle2">
+		<animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="30s"
+            type="rotate"
+            from="0 250 250"
+            to="360 250 250"
+            repeatCount="indefinite" 
+			/>
+	</path>
+</defs>
+	<text dy="70" textLength="1220">
+		<textPath xlink:href="#textcircle">Vi ste na redu - Vi ste na redu - Kontakt -</textPath>
+	</text>
+</svg>
+  </div>
 </section>
 
 <section class="cta cta-light">

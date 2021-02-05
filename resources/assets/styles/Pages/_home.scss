@@ -10,6 +10,7 @@
 
 .home-services {
   padding: 7rem 0;
+  position: relative;
 }
 
 .home-faq {
@@ -87,4 +88,34 @@
   100% {
     top: 19vw;
   }
+}
+
+.home-circle-1 {
+  width: 15%;
+  position: absolute;
+  bottom: -115px;
+  right: 68px;
+}
+.home-circle-1 text {
+  font-size: 28px;
+  font-family: $fontPrimary;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  fill: $darkPrimary;
+}
+
+.home-circle-2 {
+  width: 15%;
+  position: absolute;
+  bottom: 60px;
+  left: 68px;
+}
+.home-circle-2 text {
+  font-size: 28px;
+  font-family: $fontPrimary;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  fill: $lightPrimary;
 }

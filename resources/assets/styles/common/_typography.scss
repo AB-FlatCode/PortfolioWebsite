@@ -81,3 +81,13 @@
 .white-bg .heading-border--light {
   color: $headingDark;
 }
+
+.white-bg .accordion button,
+.white-bg .heading__hero {
+  color: $darkPrimary;
+}
+
+.white-bg .hero-section__content-text,
+.white-bg .heading__hero--small {
+  color: #404040;
+}

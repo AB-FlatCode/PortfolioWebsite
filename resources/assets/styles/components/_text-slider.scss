@@ -15,6 +15,11 @@
   white-space: nowrap;
   animation: floatText 35s infinite linear;
   padding-left: 100%; /*Initial offset*/
+  color: #888888;
+  font-weight: 300;
+}
+.white-bg .skills,
+.white-bg .langs {
   color: #2f2f2f;
 }
 
