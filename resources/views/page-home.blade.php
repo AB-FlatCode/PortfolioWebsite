@@ -12,7 +12,7 @@
       web stranica.</h2>
 
       <div class="hero-section__content-text">
-        <p>Pogledajte neke od mojih nedavnih projekata kako biste
+        <p data-aos="fade-in">Pogledajte neke od mojih nedavnih projekata kako biste
           stekli uvid u proces, rezultate i iskustva klijenata.
           </p>
       </div>
@@ -26,7 +26,7 @@
 <section class="portfolio-wrapp">
  <div class="container-lg">
    <ul class="portfolio-grid">
-     <li class="portfolio-grid__item">
+     <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
           <img src="@asset("images/brandier-ex.jpg")" alt="">
@@ -38,7 +38,7 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item">
+      <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
           <img src="@asset("images/kastav-ex.jpg")" alt="">
@@ -50,7 +50,7 @@
        </div>
      </li>
 
-     <li class="portfolio-grid__item">
+     <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
             <img src="@asset("images/kastav-ex.jpg")" alt="">
@@ -63,7 +63,7 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item">
+      <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
           <img src="@asset("images/brandier-ex.jpg")" alt="">
@@ -77,8 +77,8 @@
      </li>
    </ul>
 
-   <div class="d-flex justify-content-center el-wrapp">
-     <a href="#" class="btn btn--border">Istražite</a>
+   <div class="d-flex justify-content-center el-wrapp"  data-aos="fade-in">
+     <a href="#" class="btn btn--border">Istražite usluge</a>
    </div>
           
   </div>
@@ -111,12 +111,12 @@
   <div class="container-lg">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="heading-border">
+        <h3 class="heading-border" data-aos="slide-right" data-aos-duration="1000">
          Fokus, predanost, podrška
         </h3>
       </div>
       <div class="col-md-6">
-       <div class="page-text">
+       <div class="page-text" data-aos="fade-in" data-aos-delay="150" data-aos-duration="1000">
          <p>
             Ako tražite individualni pristup, predanost projektu i stvaranje 
             dugoročnih poslovnih odnosa nabasali ste na pravo mjesto.
@@ -146,12 +146,12 @@
   <div class="container-lg">
     <div class="row">
       <div class="col-md-6">
-        <h3 class="heading-border heading-border--light">
+        <h3 class="heading-border heading-border--light" data-aos="slide-right" data-aos-duration="1000">
          Česta pitanja klijenata
         </h3>
       </div>
       <div class="col-md-6">
-        <div class="accordion">
+        <div class="accordion" data-aos="slide-up" data-aos-delay="250" data-aos-duration="1500">
           <div class="accordion-item">
             <button id="accordion-button-1" aria-expanded="false">
               <span class="accordion-title">Kolika je cijena izrade web stranica?</span>

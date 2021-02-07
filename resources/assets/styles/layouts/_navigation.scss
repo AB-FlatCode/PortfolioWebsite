@@ -4,6 +4,11 @@
   &__menu-toggle {
     cursor: pointer;
     position: relative;
+
+    &.active {
+      z-index: 99999;
+      cursor: pointer;
+    }
   }
 
   &__hamburger,
@@ -77,6 +82,7 @@
 .navigation__menu-toggle.active .navigation__cross span {
   transition-delay: 450ms;
   transform: translateY(50%) rotate(45deg) scaleX(1);
+  background-color: $darkPrimary;
 }
 .navigation__menu-toggle.active .navigation__cross span:last-child {
   transform: translateY(-50%) rotate(-45deg) scaleX(1);
@@ -99,4 +105,228 @@
 .white-bg .navigation__hamburger span::before,
 .white-bg .navigation__hamburger span::after {
   background-color: $darkPrimary;
+}
+
+.navigation__full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.navigation__full:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  z-index: 1;
+  transition: all 1s ease;
+}
+
+.navigation__full .aside-flair {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 70vmin;
+  top: 50%;
+  right: -100%;
+  background: #000000;
+  transform: translateY(calc(-50%));
+  transition: all 0.5s ease;
+  transition-delay: 1s;
+}
+
+.navigation__full aside {
+  background: #fff;
+  height: 100%;
+  width: 70vmin;
+  margin-left: auto;
+  position: relative;
+  padding: 15vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  overflow: hidden;
+  right: -100%;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  transition-delay: 0.85s;
+}
+
+.navigation__full aside .menu-main-container ul {
+  display: table;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  width: auto;
+  height: auto;
+  position: relative;
+  pointer-events: none;
+}
+
+.navigation__full.active {
+  pointer-events: all;
+}
+
+.navigation__full.active:before {
+  opacity: 0.8;
+  transition: all 1s ease;
+}
+
+.navigation__full.active .aside-flair {
+  right: 0%;
+  transition: all 1s ease;
+  transition-delay: 0s;
+}
+
+.navigation__full.active aside {
+  right: 0;
+  pointer-events: all;
+  transition: all 1s ease;
+  transition-delay: 0.15s;
+}
+
+.navigation__full.active aside .menu-main-container ul {
+  pointer-events: all;
+}
+
+.navigation__full aside .menu-main-container ul li {
+  font-size: 4vmin;
+  list-style: none;
+  transition: all 0.2s ease;
+  overflow: hidden;
+  display: table;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.navigation__full aside .menu-main-container ul li a {
+  display: block;
+  padding: 1vmin 0;
+  position: relative;
+  top: 6.5vmin;
+  transition: all 0.5s ease;
+  color: $darkPrimary;
+  font-weight: 300;
+}
+
+// .navigation__full aside .menu-main-container ul li:first-of-type {
+//     display: none;
+// }
+
+.navigation__full aside .menu-main-container ul li.active a {
+  top: 0;
+  transition: all 0.5s ease;
+  transition-delay: 0.6s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(1) a {
+  transition-delay: 0.85s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(2) a {
+  transition-delay: 0.9s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(3) a {
+  transition-delay: 0.95s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(4) a {
+  transition-delay: 1s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(5) a {
+  transition-delay: 1.05s;
+}
+
+.navigation__full aside .menu-main-container ul li.active:nth-child(6) a {
+  transition-delay: 1.1s;
+}
+
+.navigation__full aside .menu-main-container ul li a:before {
+  content: "01.";
+  font-size: 1.3vmin;
+  margin-right: 1.3vmin;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(1n) a:before {
+  content: "01.";
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(2n) a:before {
+  content: "02.";
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(3n) a:before {
+  content: "03.";
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(4n) a:before {
+  content: "04.";
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(5n) a:before {
+  content: "05.";
+}
+
+.navigation__full aside .menu-main-container ul li:nth-child(6n) a:before {
+  content: "06.";
+}
+
+.navigation__full-info {
+  margin-top: 5rem;
+  transition: all 0.5s ease;
+  margin-bottom: 5rem;
+  opacity: 0;
+}
+
+.navigation__full.active .navigation__full-info {
+  opacity: 1;
+}
+
+.navigation__full-heading {
+  font-size: 14px;
+  color: #a19c9c;
+  font-weight: 300;
+  display: block;
+}
+
+.navigation__full-email {
+  padding-top: 12px;
+  transition-delay: 1s;
+  display: block;
+}
+
+.navigation__full-email a {
+  font-size: 18px;
+  color: $darkPrimary;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: $goldPrimary;
+    bottom: -6px;
+    left: 0;
+    transition: width ease 0.3s;
+  }
+}
+
+.navigation__full-email a:hover::before {
+  width: 0;
 }

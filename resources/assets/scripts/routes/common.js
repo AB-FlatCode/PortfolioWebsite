@@ -1,8 +1,13 @@
+import AOS from "aos";
 import { gsap } from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+const mainBody = document.querySelector("body");
 const homeBodyClass = document.querySelector(".home");
+const navMenu = document.querySelector(".navigation__menu-toggle");
+const fullMenu = document.querySelector(".navigation__full");
+const fullMenuItems = fullMenu.querySelectorAll(".menu-item");
 
 const portfolioColorChange = () => {
   if (homeBodyClass) {
@@ -32,16 +37,22 @@ const faqColorChange = () => {
 
 export default {
   init() {
-    const navMenu = document.querySelector(".navigation__menu-toggle");
+    AOS.init();
 
     navMenu.addEventListener("click", navHandler);
-
     function navHandler() {
       navMenu.classList.toggle("active");
+      mainBody.classList.toggle("menu-active");
+      fullMenu.classList.toggle("active");
+      fullMenuItems.forEach((item) => {
+        item.classList.toggle("active");
+      });
     }
 
     portfolioColorChange();
     faqColorChange();
   },
-  finalize() {},
+  finalize() {
+    console.log("fired second");
+  },
 };

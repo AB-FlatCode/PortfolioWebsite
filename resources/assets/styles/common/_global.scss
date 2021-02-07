@@ -9,8 +9,23 @@ picture {
   height: auto;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .img-link {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+body.menu-active {
+  overflow: hidden;
+}
+
+.visible-el {
+  opacity: 1;
+}
+.hidden-el {
+  opacity: 0;
 }
