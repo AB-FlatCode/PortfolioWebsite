@@ -69,6 +69,10 @@
   &--light {
     color: #dadada;
   }
+
+  &--dark {
+    color: $darkPrimary;
+  }
 }
 
 .page-text {

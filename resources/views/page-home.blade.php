@@ -233,7 +233,7 @@
 
 <section class="cta cta-light">
   <div class="cta-light__content d-flex justify-content-around">
-    <h3 class="cta-light__heading">Imate projekt na umu, trebate savjet?</h3>
+    <h3 class="cta-light__heading" data-aos="fade-in" data-aos-duration="1000">Imate projekt na umu, trebate savjet?</h3>
      <a href="#" class="btn btn--border">Pokrenimo priču</a>
   </div>
 </section>
