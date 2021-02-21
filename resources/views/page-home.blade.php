@@ -26,11 +26,12 @@
 <section class="portfolio-wrapp">
  <div class="container-lg">
    <ul class="portfolio-grid">
-     <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50">
-       <a href="" class="portfolio-grid__item-link">
-         <div class="portfolio-grid__item-img">
-          <img src="@asset("images/brandier-ex.jpg")" alt="">
+     <li class="portfolio-grid__item" data-aos="slide-up">
+       <a href="" class="portfolio-grid__item-link">      
+         <div class="portfolio-grid__item-img">   
+          <img src="@asset("images/brandier-ex.jpg")" alt="">    
          </div>
+         
        </a>
        <div class="portfolio-grid__item-desc">
          <h3 class="portfolio-grid__item-title">Grad Kastav</h3>
@@ -38,7 +39,7 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000" data-aos-delay="50">
+      <li class="portfolio-grid__item" data-aos="slide-up">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
           <img src="@asset("images/kastav-ex.jpg")" alt="">
@@ -50,9 +51,10 @@
        </div>
      </li>
 
-     <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000">
+     <li class="portfolio-grid__item">
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
+           <div class="reveal-img"></div>
             <img src="@asset("images/kastav-ex.jpg")" alt="">
          </div>
          
@@ -63,9 +65,10 @@
        </div>
      </li>
 
-      <li class="portfolio-grid__item" data-aos="slide-up" data-aos-duration="1000">
+      <li class="portfolio-grid__item" >
        <a href="" class="portfolio-grid__item-link">
          <div class="portfolio-grid__item-img">
+           <div class="reveal-img"></div>
           <img src="@asset("images/brandier-ex.jpg")" alt="">
          </div>
           
@@ -229,11 +232,9 @@
 </section>
 
 <section class="cta cta-light">
-  <div class="cta-light__content">
+  <div class="cta-light__content d-flex justify-content-around">
     <h3 class="cta-light__heading">Imate projekt na umu, trebate savjet?</h3>
-  </div>
-  <div class="d-flex justify-content-center mt-4">
-    <a href="#" class="btn btn--border">Pokrenimo priču</a>
+     <a href="#" class="btn btn--border">Pokrenimo priču</a>
   </div>
 </section>
  

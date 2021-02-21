@@ -29,3 +29,12 @@ body.menu-active {
 .hidden-el {
   opacity: 0;
 }
+.reveal-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $darkPrimary;
+  left: 0;
+  top: 0;
+  z-index: 5;
+}

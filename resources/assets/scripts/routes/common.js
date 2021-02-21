@@ -8,6 +8,7 @@ const homeBodyClass = document.querySelector(".home");
 const navMenu = document.querySelector(".navigation__menu-toggle");
 const fullMenu = document.querySelector(".navigation__full");
 const fullMenuItems = fullMenu.querySelectorAll(".menu-item");
+let revealContainers = document.querySelectorAll(".reveal-img");
 
 const portfolioColorChange = () => {
   if (homeBodyClass) {
@@ -34,6 +35,26 @@ const faqColorChange = () => {
     });
   }
 };
+
+revealContainers.forEach((container) => {
+  let revealTl = gsap.timeline({
+    scrollTrigger: {
+      trigger: container,
+      start: "top top+=650",
+    },
+  });
+
+  revealTl.fromTo(
+    container,
+    {
+      x: "0%",
+    },
+    {
+      x: "100%",
+      display: "none",
+    }
+  );
+});
 
 export default {
   init() {
